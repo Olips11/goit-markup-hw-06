@@ -306,13 +306,24 @@
             </li>
           </ul>
         </div>
-        <div class="block">
-          <h2 class="footer-title">Подпишитесь на рассылку</h2>
-          <div>
+        <div class="block-mailing">
+          <div class="mialing">
+            <h2 class="footer-title">Подпишитесь на рассылку</h2>
+            <input
+              type="email"
+              class="input-mailing"
+              name="mailing"
+              id="mailing"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="button-mailing-container">
             <button type="button" class="banner-button">
               Подписаться
-              <img src="./img/Footer/iconsend.svg" class="button-icon" alt="" />
             </button>
+            <svg class="icon-mailing" width="24px" height="24px">
+              <use href="./img/sprite.svg#icon-send"></use>
+            </svg>
           </div>
         </div>
       </div>
