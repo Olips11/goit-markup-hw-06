@@ -10,8 +10,10 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --title-text-color-white: #ffffff;
-  --timihg-function: cubic-bezier(0.4, 0, 0.2, 1);
   --primary-background-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-text-color: #757575;
+  --timihg-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page {
@@ -1068,6 +1070,8 @@ p {
 }
 
 /* footer (Web Studio and Portfolio) */
+
+/* модальное окно */
 
 .backdrop {
   position: fixed;
