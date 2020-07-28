@@ -1268,9 +1268,6 @@ p {
   background-image: url('../img/icon-check\.svg');
   background-size: contain;
   background-origin: border-box;
-  /* background-repeat: no-repeat; */
-  /* width: 16px;
-  height: 15px; */
 }
 
 .checkbox-text {
